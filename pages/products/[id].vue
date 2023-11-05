@@ -1,8 +1,6 @@
 <template>
   <div>
-    <p class="font-bold">{{ product.title }}</p>
-    <p>{{ product.price }}</p>
-    <p>{{ product.description }}</p>
+    <product-detail :product="product"/>
   </div>
 </template>
 
