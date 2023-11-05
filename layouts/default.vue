@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <v-app>
     <header class="shadow-sm bg-white">
       <nav class="container py-4 px-12 flex justify-between">
       <NuxtLink to="/" class="font-bold">Nuxt-101</NuxtLink>
@@ -14,7 +14,8 @@
     <div class="container py-4 px-12">
       <slot/>
     </div>
-  </div>
+  </v-app>
+
 </template>
 
 <style scoped>
